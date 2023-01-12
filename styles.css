@@ -15,6 +15,10 @@ h1.big {
     font-weight: 700 !important;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
     color: #1DD946 !important;
 }
@@ -24,7 +28,12 @@ a:hover {
 }
 
 .bi {
-    font-size: 1.5em;
+    font-size: 1.25em;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
 }
 
 .caret {
@@ -46,10 +55,10 @@ a:hover {
 
 .chevron {
     color: #A6A6A6;
-
     font-size: 12px;
 }
 
 .muted {
     color: #A6A6A6;
+    font-size: 1.5em;
 }
