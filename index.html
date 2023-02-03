@@ -1,73 +1,756 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
 
 <head>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tomaz Saraiva</title>
+    <meta name="description" content="Tomaz Saraiva personal portfolio">
+    <meta name="author" content="Tomaz Saraiva">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Styles-->
-    <link href="styles.css" rel="stylesheet">
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
 </head>
 
-<body>
+<body id="top">
 
-    <div class="container text-center vh-100 d-flex flex-column justify-content-center">
-        <div class="row">
-            <div class="col">
-                <h1 class="big">I AM THE ONE WHO <span class="accent">CODES<span class="caret">_</span></span></h1>
-                <h3 class="muted">Videos | Games | Posts | Projects | Work | Portfolio | Resume | Life</h3>
-                <div class="mt-2">
-                    <div class="d-flex justify-content-center mt-4">
-                        <a class="h2" href="https://www.youtube.com/c/tomazsaraiva" target="_blank"
-                            rel="noreferrer"><img class="icon" src="assets/youtube.svg"></img>
-                        </a>
 
-                        <a class="h2 ms-1" href="https://tomazsaraiva.itch.io/" target="_blank" rel="noreferrer"><img
-                                class="icon" src="assets/itchdotio.svg"></img>
-                        </a>
-
-                        <a class="h2 ms-1" href="https://medium.com/@tomazsaraiva" target="_blank" rel="noreferrer"><img
-                                class="icon" src="assets/medium.svg"></img>
-                        </a>
-
-                        <a class="h2 ms-1" href="https://github.com/tomazsaraiva" target="_blank" rel="noreferrer"><img
-                                class="icon" src="assets/github.svg"></img>
-                        </a>
-
-                        <a class="h2 ms-1" href="https://www.linkedin.com/in/tomazsaraiva/" target="_blank"
-                            rel="noreferrer"><img class="icon" src="assets/linkedin.svg"></img>
-                        </a>
-
-                        <a class="h2 ms-1" href="https://sites.google.com/view/tomazsaraiva-work/home" target="_blank"
-                            rel="noreferrer"><img class="icon" src="assets/portfolio.svg"></img>
-                        </a>
-
-                        <a class="h2 ms-1"
-                            href="https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/ca5053de-bc81-4b1a-96a0-fdeaec162ba0?view=html"
-                            target="_blank" rel="noreferrer"><img class="icon" src="assets/resume.svg"></img>
-                        </a>
-
-                        <a class="h2 ms-1" href="https://www.instagram.com/tomazsaraiva/" target="_blank"
-                            rel="noreferrer"><img class="icon" src="assets/instagram.svg"></img>
-                        </a>
-                    </div>
-                </div>
-                <div class="mt-5">
-                    <a href="mailto:tomaz.saraiva@gmail.com" target="_blank">tomaz.saraiva@gmail.com</a>
-                </div>
-            </div>
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
         </div>
     </div>
 
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Tomaz Saraiva</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="index.html" class="home-link">Tomaz Saraiva</a></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li><a href="#works" class="smoothscroll">Works</a></li>
+                        <li><a href="#contact" class="smoothscroll">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+
+        <!-- ## main content
+        ==================================================- -->
+        <main class="s-content">
+
+
+            <!-- ### intro
+            ================================================== -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <div class="text-pretitle with-line">
+                            Hello World
+                        </div>
+
+                        <h1 class="text-huge-title">
+                            I am Tomaz Saraiva, <br>
+                            a software developer <br>
+                            based in Lisbon.<br>
+                        </h1>
+                    </div>
+
+                    <ul class="intro-social">
+                        <li><a href="https://www.youtube.com/c/tomazsaraiva" target="_blank">YoutTube</a></li>
+                        <li><a href="https://tomazsaraiva.itch.io/" target="_blank">itch.io</a></li>
+                        <li><a href="https://medium.com/@tomazsaraiva" target="_blank">Medium</a></li>
+                        <li><a href="https://github.com/tomazsaraiva" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/tomazsaraiva/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/tomazsaraiva/" target="_blank">Instagram</a></li>
+                    </ul>
+
+                    <!-- <ul class="intro-social">
+                        <li><a href="#0">Behance</a></li>
+                        <li><a href="#0">Twitter</a></li>
+                        <li><a href="#0">Dribbble</a></li>
+                        <li><a href="#0">Instagram</a></li>
+                    </ul> -->
+
+                </div> <!-- end intro content -->
+
+                <a href="#about" class="intro-scrolldown smoothscroll">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        fill-rule="evenodd" clip-rule="evenodd">
+                        <path
+                            d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z" />
+                    </svg>
+                </a>
+
+            </section> <!-- end s-intro -->
+
+
+            <!-- ### about
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+
+
+                <div class="row about-info wide" data-animate-block>
+
+                    <div class="column lg-6 md-12 about-info__pic-block">
+                        <img src="images/about-photo.jpg"
+                            srcset="images/about-photo.jpg 1x, images/about-photo@2x.jpg 2x" alt=""
+                            class="about-info__pic" data-animate-el>
+                    </div>
+
+                    <div class="column lg-6 md-12">
+                        <div class="about-info__text">
+
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                About
+                            </h2>
+                            <p class="attention-getter" data-animate-el>
+                                More than ten years ago, I was finishing my degree in psychology. Today, I'm either
+                                programming, teaching or both. Intriguing enough?
+                            </p>
+                            <a href="#0" class="btn btn--medium u-fullwidth" data-animate-el>Download CV</a>
+
+                        </div>
+                    </div>
+                </div> <!-- about-info -->
+
+
+                <div class="row about-expertise" data-animate-block>
+                    <div class="column lg-12">
+
+                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
+
+                        <ul class="skills-list h1" data-animate-el>
+                            <li>Video Games</li>
+                            <li>Mobile Apps</li>
+                            <li>Mixed Reality</li>
+                        </ul>
+
+                    </div>
+                </div> <!-- end about-expertise -->
+
+
+                <div class="row about-timelines" data-animate-block>
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Experience
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Freelance</h3>
+                                        <h5 class="timeline__meta">Software Developer</h5>
+                                        <p class="timeline__timeframe">August 2015 - Present</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>
+                                        - Developed 5+ mobile applications for diverse clients;<br>
+                                        - Contributed to the development of at least two published games;<br>
+                                        - Implemented multiple prototypes for mobile, web and VR/AR platforms.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Universidade Lusófona</h4>
+                                    <h5 class="timeline__meta">Research Assistant</h5>
+                                    <p class="timeline__timeframe">February 2022 - February 2023</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>
+                                        - Developed multiple Virtual Reality simulations for training purposes;<br>
+                                        - Helped streamlining processes between research and development teams with
+                                        custom Unity tools;<br>
+                                        - Trained and mentored video games students in Virtual Reality development using
+                                        Unity.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div> <!-- end timeline -->
+
+                    </div> <!-- end column -->
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Education
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Restart - Instituto de Criatividade, Artes e Novas
+                                        Tecnologias</h3>
+                                        <h5 class="timeline__meta">Video games development</h5>
+                                        <p class="timeline__timeframe">July 2012</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>
+                                        Professional course encompassing the entire video games development lifecycle.
+                                        From conceptualization and design to development and release.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">The University of Salford</h4>
+                                    <h5 class="timeline__meta">MSc in Creative Games</h5>
+                                    <p class="timeline__timeframe">July 2010</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>
+                                        Master's degree program focused on exploring the creative use of video games in
+                                        diverse cultural contexts.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div> <!-- end timeline -->
+
+                    </div> <!-- end column -->
+
+
+                </div> <!-- end about-timelines -->
+
+            </section> <!-- end s-about -->
+
+
+            <!-- ### works
+            ================================================== -->
+            <section id="works" class="s-works target-section">
+
+
+                <div class="row works-portfolio">
+
+                    <div class="column lg-12" data-animate-block>
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Recent Works
+                        </h2>
+                        <p class="h1" data-animate-el>
+                            Here are some of my favourite projects.
+                        </p>
+
+                        <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-01">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/enhance.jpg"
+                                            srcset="images/portfolio/enhance.jpg 1x, images/portfolio/enhance@2x.jpg 2x"
+                                            alt="">
+                                    </div>
+
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Virtual Reality Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Enhance.
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-02">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/between_me_and_the_night.jpg"
+                                            srcset="images/portfolio/between_me_and_the_night.jpg 1x, images/portfolio/between_me_and_the_night@2x.jpg 2x"
+                                            alt="">
+                                    </div>
+
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Game Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Between Me and The Night.
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-03">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/shop_in_porto.jpg"
+                                            srcset="images/portfolio/shop_in_porto.jpg 1x, images/portfolio/rucksack@2x.jpg 2x"
+                                            alt="">
+                                    </div>
+
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Mobile App Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Shop in Porto.
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-04">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/wvf.jpg"
+                                            srcset="images/portfolio/wvf.jpg 1x, images/portfolio/wvf@2x.jpg 2x" alt="">
+                                    </div>
+
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Virtual Environment Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            World Virtual Fair.
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-05">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/vrgis.jpg"
+                                            srcset="images/portfolio/vrgis.jpg 1x, images/portfolio/vrgis@2x.jpg 2x"
+                                            alt="">
+                                    </div>
+
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Unity Tools
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            VR Gaze Interaction System.
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-06">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/from_scratch_into_unity.jpg"
+                                            srcset="images/portfolio/from_scratch_into_unity.jpg 1x, images/portfolio/from_scratch_into_unity@2x.jpg 2x"
+                                            alt="">
+                                    </div>
+
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Video Tutorials
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            From Scratch into Unity.
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!--end folio-list__item -->
+
+                        </ul> <!-- end folio-list -->
+
+                    </div> <!-- end column -->
+
+
+                    <!-- Modal Templates Popup
+                    -------------------------------------------- -->
+                    <div id="modal-01" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-enhance.jpg" alt="">
+
+                            <div class="modal-popup__desc">
+                                <h5>Enhance</h5>
+                                <p>Enhance is a Virtual Reality brain training app that offers a daily cognitive workout
+                                    of short, intense and fun games designed to help test and train your cognitive
+                                    skills.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Virtual Reality Development</li>
+                                    <li>Game Development</li>
+                                </ul>
+                            </div>
+
+                            <a href="https://virtuleap.com/enhance" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-02" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-between_me_and_the_night.jpg" alt="">
+
+                            <div class="modal-popup__desc">
+                                <h5>Between Me and The Night</h5>
+                                <p>‘Between Me and The Night' is a surrealist action adventure game that walks the thin
+                                    path between sanity and madness. Take on the role of a young boy and explore and
+                                    interact with the mysterious house in which he lives.
+                                </p>
+                                <ul class="modal-popup__cat">
+                                    <li>Game Development</li>
+                                </ul>
+                            </div>
+
+                            <a href="https://store.steampowered.com/app/285070/Between_Me_and_The_Night/"
+                                class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-03" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-shop_in_porto.jpg" alt="">
+
+                            <div class="modal-popup__desc">
+                                <h5>Shop in Porto</h5>
+                                <p>
+                                    In Shop in Porto you can find the shop you are looking for according to the product
+                                    or service you want to buy at any given time, according to its geographical
+                                    location, the meaning of the store in the city's history, or according to
+                                    promotions, campaigns and special offers that the merchant wants to promote. You can
+                                    also access suggested store itineraries or create your own itineraries to suit your
+                                    personal interests.
+                                </p>
+                                <ul class="modal-popup__cat">
+                                    <li>Mobile App Development</li>
+                                </ul>
+                            </div>
+
+                            <a href="https://shopinporto.porto.pt/" class="modal-popup__details">Project
+                                link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-04" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-wvf.jpg" alt="">
+
+                            <div class="modal-popup__desc">
+                                <h5>World Virtual Fair</h5>
+                                <p>World Virtual Fair (WVF) is the largest virtual exhibition where businesses can
+                                    connect and interact in a virtual and realistic world.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Virtual Environment Development</li>
+                                </ul>
+                            </div>
+
+                            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-05" hidden>
+                        <div class="modal-popup">
+
+                            <img src="images/portfolio/gallery/g-vrgis.jpg" alt="">
+
+                            <div class="modal-popup__desc">
+                                <h5>VR Gaze Interaction System</h5>
+                                <p>Implementation of a gaze interaction system to use in Virtual Reality projects.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Illustration</li>
+                                </ul>
+                            </div>
+
+                            <a href="https://assetstore.unity.com/packages/tools/camera/vr-gaze-interaction-system-241337"
+                                class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-06" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-from_scratch_into_unity.jpg" alt="">
+
+                            <div class="modal-popup__desc">
+                                <h5>Video Tutorial Series</h5>
+                                <p>A series of video tutorials exploring how one can move from creating games in Scratch
+                                    into Unity Development.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Video Tutorials</li>
+                                    <li>Game Development</li>
+                                </ul>
+                            </div>
+
+                            <a href="https://youtube.com/playlist?list=PLBBRLwJVhEhOBMNBVX6kIEzPMkhILFy7k"
+                                class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                </div> <!-- end works-portfolio -->
+
+                <!-- <div class="row testimonials">
+                    <div class="column lg-12" data-animate-block>
+
+                        <div class="swiper-container testimonial-slider" data-animate-el>
+
+                            <div class="swiper-wrapper">
+
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <img src="images/avatars/user-02.jpg" alt="Author image"
+                                            class="testimonial-slider__avatar">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Tim Cook</strong>
+                                            <span>CEO, Apple</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                        Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas
+                                        tempore rem.
+                                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores
+                                        quaerat fuga rem nihil nostrum.
+                                        Laudantium quia consequatur molestias delectus culpa.
+                                    </p>
+                                </div>
+
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <img src="images/avatars/user-03.jpg" alt="Author image"
+                                            class="testimonial-slider__avatar">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Sundar Pichai</strong>
+                                            <span>CEO, Google</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                        Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos
+                                        repellat voluptas animi adipisci.
+                                        Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium
+                                        perspiciatis.
+                                        Quasi voluptas eius distinctio. Atque eos maxime.
+                                    </p>
+                                </div>
+
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <img src="images/avatars/user-01.jpg" alt="Author image"
+                                            class="testimonial-slider__avatar">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Satya Nadella</strong>
+                                            <span>CEO, Microsoft</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                        Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil
+                                        ea quia nesciunt. Ducimus aut sed ipsam.
+                                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas
+                                        eius distinctio.
+                                        Voluptatem dignissimos ut.
+                                    </p>
+                                </div>
+
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <img src="images/avatars/user-06.jpg" alt="Author image"
+                                            class="testimonial-slider__avatar">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Jeff Bezos</strong>
+                                            <span>CEO, Amazon</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                        Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel
+                                        dui. In ac felis
+                                        quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at
+                                        corrupti expedita voluptas odit.
+                                        Nihil ea quia nesciunt. Ducimus aut sed ipsam.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-pagination"></div>
+
+                        </div>
+
+                    </div>
+                </div> -->
+
+            </section> <!-- end s-works -->
+
+
+            <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">
+                            Get In Touch
+                        </h2>
+
+                        <p class="h1">
+                            I would love to hear from you.
+                            Whether you have a question or just
+                            want to chat — shoot me a message.
+                        </p>
+                    </div>
+                </div> <!-- end contact-top -->
+
+                <div class="row contact-bottom">
+                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Reach me at</h3>
+                        <p class="contact-links">
+                            <a href="mailto:sayhello@luther.com" class="mailtoui">tomaz.saraiva@gmail.com</a> <br>
+                            <!-- <a href="tel:+1975432345">+197 543 2345</a> -->
+                        </p>
+                    </div>
+                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Social</h3>
+                        <ul class="contact-social">
+                            <li><a href="https://www.youtube.com/c/tomazsaraiva" target="_blank">YoutTube</a></li>
+                            <li><a href="https://tomazsaraiva.itch.io/" target="_blank">itch.io</a></li>
+                            <li><a href="https://medium.com/@tomazsaraiva" target="_blank">Medium</a></li>
+                            <li><a href="https://github.com/tomazsaraiva" target="_blank">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/tomazsaraiva/" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://www.instagram.com/tomazsaraiva/" target="_blank">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="column lg-4 md-12 contact-block">
+                        <a href="mailto:tomaz.saraiva@gmail.com"
+                            class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                    </div>
+                </div> <!-- end contact-bottom -->
+
+            </section> <!-- end contact -->
+
+        </main> <!-- end s-content -->
+
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright Luther 2021</span>
+                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd"
+                            clip-rule="evenodd">
+                            <path
+                                d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end -s-pagewrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
