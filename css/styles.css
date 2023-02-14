@@ -4147,6 +4147,22 @@ img.u-pull-left {
     margin-right: 5vw;
 }
 
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+textarea {
+    height: auto;
+    min-height: auto;
+    /* border-style: none;
+    border-color: Transparent; */
+    overflow: auto;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * contact

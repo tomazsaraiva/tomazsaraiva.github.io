@@ -15,13 +15,13 @@
     * -------------------------------------------------- */
     const tl = anime.timeline( {
         easing: 'easeInOutCubic',
-        duration: 800,
+        duration: 500,
         autoplay: false
     })
     .add({
         targets: '#loader',
         opacity: 0,
-        duration: 1000,
+        duration: 800,
         begin: function(anim) {
             window.scrollTo(0, 0);
         }
@@ -43,7 +43,7 @@
         targets: [ '.s-intro .text-pretitle', '.s-intro .text-huge-title'],
         translateX: [100, 0],
         opacity: [0, 1],
-        delay: anime.stagger(400)
+        delay: anime.stagger(0)
     })
     .add({
         targets: '.circles span',
@@ -57,7 +57,7 @@
         targets: '.intro-social li',
         translateX: [-50, 0],
         opacity: [0, 1],
-        delay: anime.stagger(100, {direction: 'reverse'})
+        delay: anime.stagger(0, {direction: 'reverse'})
     })
     .add({
         targets: '.intro-scrolldown',
