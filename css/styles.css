@@ -3452,17 +3452,19 @@ img.u-pull-left {
 .about-info {
     --gutter: 0;
     width: 100%;
-    align-items: center;
+    align-items: top;
 }
 
 .about-info__pic {
+    padding-top: var(--vspace-3);
     object-fit: cover;
     margin: 0;
     vertical-align: bottom;
 }
 
 .about-info__text {
-    padding: var(--vspace-3_5) 10vw var(--vspace-2) 0;
+    /* padding: var(--vspace-3_5) 10vw var(--vspace-2) 0; */
+    padding: 0 10vw var(--vspace-2) 0;
     margin-left: -4rem;
 }
 
@@ -3579,7 +3581,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1300px) {
     .about-info__text {
-        padding: var(--vspace-2) 8rem var(--vspace-1_5) 0;
+        /* padding: var(--vspace-2) 8rem var(--vspace-1_5) 0; */
+        padding: 0 8rem var(--vspace-1_5) 0;
     }
 }
 
