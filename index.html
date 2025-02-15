@@ -102,8 +102,8 @@
                     <ul class="intro-social">
                         <li><a href="https://www.instagram.com/tomazsaraiva/" target="_blank">Instagram</a></li>
                         <li><a href="https://www.linkedin.com/in/tomazsaraiva/" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://github.com/tomazsaraiva" target="_blank">GitHub</a></li>
                         <li><a href="https://tomazsaraiva.itch.io/" target="_blank">itch.io</a></li>
+                        <li><a href="https://github.com/tomazsaraiva" target="_blank">GitHub</a></li>
                         <li><a href="https://www.youtube.com/c/tomazsaraiva" target="_blank">YouTube</a></li>
                     </ul>
 
@@ -167,7 +167,7 @@
                 </div> <!-- about-info -->
 
 
-                <div class="row about-expertise" data-animate-block>
+                <div id="expertise" class="row about-expertise" data-animate-block>
                     <div class="column lg-12">
 
                         <h2 class="text-pretitle" data-animate-el>Expertise</h2>
@@ -195,20 +195,39 @@
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
-                                    <h4 class="timeline__title">Freelance</h3>
-                                        <h5 class="timeline__meta">Software Developer</h5>
-                                        <p class="timeline__timeframe">August 2015 - Present</p>
+                                    <h4 class="timeline__title">Lead Developer</h4>
+                                    <h5 class="timeline__meta"><a href="https://immersivelives.pt/"
+                                            target="_blank">Immersive Lives</a></h5>
+                                    <p class="timeline__timeframe">January 2024 - Present</p>
                                 </div>
                                 <div class="timeline__desc">
                                     <p>
-                                        - Developed 5+ mobile applications for diverse clients;<br>
-                                        - Contributed to the development of at least two published games;<br>
-                                        - Implemented multiple prototypes for mobile, web and VR/AR platforms.
+                                        - Developed XR projects using Unity, focusing on VR/AR integration;<br>
+                                        - Led development efforts and participated in meetings with project
+                                        partners;<br>
+                                        - Designed solutions for real use cases of XR technologies in industrial
+                                        contexts.
                                     </p>
                                 </div>
                             </div>
 
                             <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Software Developer</h4>
+                                    <h5 class="timeline__meta">Freelancer</h5>
+                                    <p class="timeline__timeframe">August 2015 - Present</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>
+                                        - Developed 5+ mobile applications for diverse clients;<br>
+                                        - Contributed to the development of at least 2 published games;<br>
+                                        - Developed multiple projects for mobile, web and XR platforms.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
                                     <h4 class="timeline__title">Universidade Lusófona</h4>
@@ -224,7 +243,7 @@
                                         Unity.
                                     </p>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div> <!-- end timeline -->
 
@@ -241,10 +260,11 @@
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
-                                    <h4 class="timeline__title">Restart - Instituto de Criatividade, Artes e Novas
-                                        Tecnologias</h3>
-                                        <h5 class="timeline__meta">Video games development</h5>
-                                        <p class="timeline__timeframe">July 2012</p>
+                                    <h4 class="timeline__title">Video games development</h4>
+                                    <h5 class="timeline__meta">
+                                        <a href="https://restart.pt/" target="_blank">Restart - Creative Education</a>
+                                    </h5>
+                                    <p class="timeline__timeframe">July 2012</p>
                                 </div>
                                 <div class="timeline__desc">
                                     <p>
@@ -257,8 +277,11 @@
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
-                                    <h4 class="timeline__title">The University of Salford</h4>
-                                    <h5 class="timeline__meta">MSc in Creative Games</h5>
+                                    <h4 class="timeline__title">MSc in Creative Games</h4>
+                                    <h5 class="timeline__meta">
+                                        <a href="https://www.salford.ac.uk/" target="_blank">The University of
+                                            Salford</a>
+                                    </h5>
                                     <p class="timeline__timeframe">July 2010</p>
                                 </div>
                                 <div class="timeline__desc">
@@ -483,13 +506,16 @@
                                 <p>Enhance is a Virtual Reality brain training app that offers a daily cognitive workout
                                     of short, intense and fun games designed to help test and train your cognitive
                                     skills.</p>
+
+                                <a href="https://virtuleap.com/enhance" target="_blank"
+                                    class="modal-popup__details">Project
+                                    link</a>
+
                                 <ul class="modal-popup__cat">
                                     <li>Virtual Reality Development</li>
                                     <li>Game Development</li>
                                 </ul>
                             </div>
-
-                            <a href="https://virtuleap.com/enhance" class="modal-popup__details">Project link</a>
                         </div>
                     </div> <!-- end modal -->
 
@@ -509,7 +535,7 @@
                             </div>
 
                             <a href="https://store.steampowered.com/app/285070/Between_Me_and_The_Night/"
-                                class="modal-popup__details">Project link</a>
+                                target="_blank" class="modal-popup__details">Project link</a>
                         </div>
                     </div> <!-- end modal -->
 
@@ -532,7 +558,7 @@
                                 </ul>
                             </div>
 
-                            <a href="https://shopinporto.porto.pt/" class="modal-popup__details">Project
+                            <a href="https://shopinporto.porto.pt/" target="_blank" class="modal-popup__details">Project
                                 link</a>
                         </div>
                     </div> <!-- end modal -->
@@ -550,7 +576,8 @@
                                 </ul>
                             </div>
 
-                            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                            <a href="https://www.worldvirtualfair.com/" target="_blank"
+                                class="modal-popup__details">Project link</a>
                         </div>
                     </div> <!-- end modal -->
 
@@ -568,7 +595,7 @@
                             </div>
 
                             <a href="https://assetstore.unity.com/packages/tools/camera/vr-gaze-interaction-system-241337"
-                                class="modal-popup__details">Project link</a>
+                                target="_blank" class=" modal-popup__details">Project link</a>
                         </div>
                     </div> <!-- end modal -->
 
@@ -580,14 +607,15 @@
                                 <h5>Video Tutorial Series</h5>
                                 <p>A series of video tutorials exploring how one can move from creating games in Scratch
                                     into Unity Development.</p>
+
+                                <a href="https://youtube.com/playlist?list=PLBBRLwJVhEhOBMNBVX6kIEzPMkhILFy7k"
+                                    target="_blank" class="modal-popup__details">Project link</a>
+
                                 <ul class="modal-popup__cat">
                                     <li>Video Tutorials</li>
                                     <li>Game Development</li>
                                 </ul>
                             </div>
-
-                            <a href="https://youtube.com/playlist?list=PLBBRLwJVhEhOBMNBVX6kIEzPMkhILFy7k"
-                                class="modal-popup__details">Project link</a>
                         </div>
                     </div> <!-- end modal -->
 
